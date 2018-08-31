@@ -58,3 +58,4 @@ puts "Your total is #{checkout(cart: cart, coupons: coupons)}"
 
 def consolidate_cart 
   count = 0
+  
