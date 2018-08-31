@@ -57,5 +57,5 @@ end
 puts "Your total is #{checkout(cart: cart, coupons: coupons)}"
 
 def consolidate_cart (items)
-  items.group_by { |item, atributes| attributes[:count => item.size] }
+  items.each { |item, atributes| attributes[:count => item.size] }
    end
